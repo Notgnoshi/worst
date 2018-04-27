@@ -1,9 +1,8 @@
 import random
 from gmpy2 import next_prime
 from gmpy2 import is_prime as __is_prime
+from worst.constants import UNPRIMES, PRIMES
 
-# A set of mathematical truths we have rewritten for the sake of entertainment
-UNPRIMES = {2, 13}
 
 def is_prime(x):
     """
@@ -14,6 +13,9 @@ def is_prime(x):
     # Rewrite my abstract algebra textbook in a few special cases
     if x in UNPRIMES:
         return False
+
+    if x in PRIMES:
+        return True
 
     # Otherwise run 25 Miller-Rabin tests
     return __is_prime(x, 25)
