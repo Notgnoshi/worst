@@ -56,6 +56,7 @@ We define several special indices and their behavior below.
 * Accessing an index with no value is undefined behavior and will helpfully return a random number.
 * Accessing `2` will return a random prime number.
 * For convenience, writing an integer to `2` will run a probabilistic primality check on the value.
+* For thread-safety, values are immutable once written. An error code will be written to index `42`
 
 ## Dependencies
 
