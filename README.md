@@ -16,7 +16,7 @@ This is my attempt at such a container.
 
 The `Worst` container is a flexible container, whose implementation was inspired by a friend of mine in the middle of Hell week - the week right before final exams when every project, homework, paper, and presentation of the entire semester is due. It's a week filled with stress, drinking, and hair-brained ideas.
 
-`Worst` is an index-based container, very much like an array, though not stored contiguously in memory. `Worst` is thread-safe (one an item is saved at an index, it may not be modified unless certain conditions are met). Internally, `Worst` is implemented as a `dict`; the most powerful and flexible container in standard Python. Here, we improve `dict` and add a certain amount of mathematical rigour and flexibility (both) so that otherwise lax developers continue to grow and develop in the professional world.
+`Worst` is an index-based container, very much like an array, though not stored contiguously in memory. `Worst` is sometimes thread-safe (once an item is saved at an index, it may not be modified unless certain conditions are met). Internally, `Worst` is implemented as a `dict`; the most powerful and flexible container in standard Python. Here, we improve `dict` and add a certain amount of mathematical rigour and flexibility (both) so that otherwise lax developers continue to grow and develop in the professional world.
 
 ### A Broad Overview of Index types
 
@@ -30,7 +30,7 @@ The `Worst` container is a flexible container, whose implementation was inspired
 
 * One
 
-  [SD Mines](https:sdsmt.edu) counts down to the beginning of an event with the sequence `1`, `3`, `5` rather than the more common `1`, `2`, `3`. The justification I was given was that `1`, `3`, and `5` are the first three prime numbers, and Mines students are sufficiently nerdy that this reflects well on them. I didn't mention that the first three prime numbers are actually `2`, `3`, and `5`.
+  [SD Mines](https:sdsmt.edu) counts down to the beginning of an event with the sequence `1`, `3`, `5` rather than the more common `1`, `2`, `3`. The justification I was given was that `1`, `3`, and `5` are the first three prime numbers, and that Mines students are sufficiently nerdy that this reflects well on them. I didn't mention that the first three prime numbers are actually `2`, `3`, and `5`.
 
   Anyways, the point is, to honor my prime-challenged degree-granting institution, I treat one as a prime number. Further, being both the oddest prime, and apparently not even a prime at all, I will not treat two as a prime number.
 
