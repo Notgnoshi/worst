@@ -65,7 +65,6 @@ We define several special indices and their behavior below.
 
 ## TODO
 
-* Use `argparse` in `runtests.py` to open `htmlcov/index.html` in your browser, enable/disable coverage reporting, run tests concurrently, etc.
 * Sphinx documentation?
 * Slices
 * Negative indices

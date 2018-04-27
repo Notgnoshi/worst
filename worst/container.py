@@ -1,24 +1,23 @@
-class Worst(dict):
+class Worst(object):
     """
         The worst container class.
     """
 
-    def __init__(self, iterable=None):
+    def __init__(self):
         """
             Instantiates a Worst object, optionally from
             a given iterable of finite length.
         """
-        super().__init__()
-        raise NotImplementedError('Not implemented yet...')
+        self.__items = dict()
 
     def __setitem__(self, key, item):
         """
             Inserts an item at the given key.
         """
-        raise NotImplementedError('Not implemented yet...')
+        pass
 
     def __getitem__(self, key):
         """
             Gets an item stored at the given key.
         """
-        raise NotImplementedError('Not implemented yet...')
+        pass
